@@ -25,6 +25,7 @@ function Levels () {
             `, TileScale.Eight)
         AddTilesAndSprites()
     } else if (Level == 2) {
+        game.splash("First firewall removed.")
         game.splash("Press enter to restart the level at any time.")
         scene.setTileMap(img`
             7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
@@ -45,6 +46,28 @@ function Levels () {
             `, TileScale.Eight)
         AddTilesAndSprites()
     } else if (Level == 3) {
+        game.splash("Second firewall removed.")
+        game.splash("Press enter to restart the level at any time.")
+        scene.setTileMap(img`
+            7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
+            7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
+            7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
+            7 7 7 f f f f f f f f f f f 7 7 7 7 7 7 
+            7 7 7 f 7 7 7 7 7 7 7 7 f f 7 7 7 7 7 7 
+            7 7 7 f c 7 4 7 7 f 7 7 7 f 7 7 7 7 7 7 
+            7 7 7 f 7 7 7 7 7 f 7 f 7 f 7 7 7 7 7 7 
+            7 7 7 f 7 7 f 7 7 7 7 7 7 f 7 f f f 7 7 
+            7 7 7 f f f f f f f f f 7 f 7 f 3 f 7 7 
+            7 7 7 7 7 7 7 7 7 7 f 7 7 f f f 7 f 7 7 
+            7 7 7 7 7 7 7 7 7 7 f 7 7 7 7 7 7 f 7 7 
+            7 7 7 7 7 7 7 7 7 7 f f f f f 7 7 f 7 7 
+            7 7 7 7 7 7 7 7 7 7 7 7 7 7 f f f f 7 7 
+            7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
+            7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
+            `, TileScale.Eight)
+        AddTilesAndSprites()
+    } else if (Level == 4) {
+        game.splash("Third firewall removed.")
         game.splash("Press enter to restart the level at any time.")
         scene.setTileMap(img`
             7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
@@ -64,7 +87,29 @@ function Levels () {
             7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
             `, TileScale.Eight)
         AddTilesAndSprites()
-    } else if (Level == 4) {
+    } else if (Level == 5) {
+        game.splash("Fourth firewall removed.")
+        game.splash("Press enter to restart the level at any time.")
+        scene.setTileMap(img`
+            7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
+            7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
+            7 7 7 7 7 7 7 7 7 7 7 7 f f f f 7 7 7 7 
+            7 7 7 7 f f f f f f f f f 7 7 f f 7 7 7 
+            7 7 7 7 f 7 f 7 7 f 7 7 7 7 7 f f 7 7 7 
+            7 7 7 7 f 7 f 7 7 f 7 7 f 7 7 f f 7 7 7 
+            7 7 7 7 f 7 4 7 7 f 7 7 f 7 7 7 f 7 7 7 
+            7 7 7 7 f 7 f 7 7 7 7 7 f 7 7 7 f 7 7 7 
+            7 7 7 7 f c 7 f 7 f 7 7 f 7 f 3 f 7 7 7 
+            7 7 7 7 f f f f f f f f f f f f f 7 7 7 
+            7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
+            7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
+            7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
+            7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
+            7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
+            `, TileScale.Eight)
+        AddTilesAndSprites()
+    } else if (Level == 6) {
+        game.splash("Fifth firewall removed.")
         game.splash("Press enter to restart the level at any time.")
         scene.setTileMap(img`
             7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
@@ -82,6 +127,27 @@ function Levels () {
             7 7 7 7 7 7 7 7 7 7 7 7 7 7 f f 7 7 f f 
             7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 f 7 7 3 7 
             7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 f f f f f 
+            `, TileScale.Eight)
+        AddTilesAndSprites()
+    } else if (Level == 7) {
+        game.splash("Sixth firewall removed.")
+        game.splash("Press enter to restart the level at any time.")
+        scene.setTileMap(img`
+            7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
+            7 f f f f 7 7 7 7 7 f f f f f f f f f f 
+            7 f c 7 f 7 7 7 7 7 f 3 7 7 7 7 7 7 7 f 
+            7 f f 4 f f 7 7 7 7 f f f f f f 7 7 7 f 
+            7 f 7 7 7 f 7 7 7 7 7 7 7 7 7 f f 7 f f 
+            7 f 7 7 7 f 7 7 7 7 f f f f 7 7 f 7 f 7 
+            7 f f 7 7 f f f f f f 7 7 f 7 7 f 7 f 7 
+            7 7 f 7 7 7 7 7 7 7 7 7 7 f 7 7 f 7 f 7 
+            7 7 f f f f f f f f f 7 7 f 7 f f 7 f 7 
+            7 7 7 7 7 7 7 7 7 7 f 7 7 f f f 7 7 f 7 
+            7 7 7 7 7 7 7 7 7 7 f 7 7 7 7 7 7 7 f 7 
+            7 7 7 7 7 7 7 7 7 7 f 7 7 f 7 7 7 7 f 7 
+            7 7 7 7 7 7 7 7 7 7 f 7 7 f f f f f f 7 
+            7 7 7 7 7 7 7 7 7 7 f f f f 7 7 7 7 7 7 
+            7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
             `, TileScale.Eight)
         AddTilesAndSprites()
     }
@@ -136,7 +202,7 @@ sprites.onOverlap(SpriteKind.Sokobox, SpriteKind.Target, function (sprite, other
     Level += 1
     console.log(Level)
     Levels()
-    music.smallCrash.play()
+    music.bigCrash.play()
 })
 controller.left.onEvent(ControllerButtonEvent.Pressed, function () {
     moveLeft()
@@ -308,7 +374,7 @@ blockMenu.onMenuOptionSelected(function (option, index) {
             ffffffffffffffffffffffffffffffffffffffffffffffff
             `)
         game.setDialogTextColor(7)
-        game.showLongText("Made in 4 days for the first N8Jam. You play as a character that has just escaped a digital consciousness, where billions of people are currently trapped. You must solve sokoban-esque puzzles to break the system, and relieve the billions of souls trapped. If you fail to finish the puzzles within the time limit, you alert the system and will hear the thumping of footsteps at your door, reminding you that your mission ins't over, but have failed for now.", DialogLayout.Center)
+        game.showLongText("Made in 4 days for the first N8Jam. You play as a character that has just escaped a digital consciousness, where billions of people are currently trapped. You must solve sokoban-esque puzzles to break the firewalls and eventually break the system, and relieve the billions of souls trapped. If you fail to finish the puzzles within the time limit, you alert the system and will hear the thumping of footsteps at your door, reminding you that your mission ins't over, but have failed for now.", DialogLayout.Center)
     } else if (option == "How to play") {
         game.setDialogFrame(img`
             ffffffffffffffffffffffffffffffffffffffffffffffff
