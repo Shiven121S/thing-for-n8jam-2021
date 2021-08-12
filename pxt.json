@@ -8,7 +8,8 @@
         "Color Fading": "github:jwunderl/pxt-color#v0.2.1",
         "block-menu": "github:riknoll/arcade-custom-menu#v0.0.1",
         "arcade-shader": "github:riknoll/arcade-shader#d2a2572906fdb68ff429f337e30606b069e688ea",
-        "small-tilemaps": "github:riknoll/small-tilemaps#v0.0.1"
+        "small-tilemaps": "github:riknoll/small-tilemaps#v0.0.1",
+        "pxt-countup": "github:shakao/pxt-countup#v0.0.2"
     },
     "files": [
         "main.blocks",
