@@ -150,6 +150,27 @@ function Levels () {
             7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
             `, TileScale.Eight)
         AddTilesAndSprites()
+    } else if (Level == 8) {
+        game.splash("Seventh firewall removed.")
+        game.splash("Press enter to restart the level at any time.")
+        scene.setTileMap(img`
+            7 f f f f 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
+            f f c 7 f 7 7 f f f f f f f f f 7 7 7 7 
+            f 7 7 4 f 7 7 f 3 7 7 7 7 7 7 f f f f f 
+            f f f 7 f 7 7 f f f f f f 7 7 7 7 7 7 f 
+            7 f 7 7 f f f f f f 7 7 f 7 7 f f 7 7 f 
+            7 f 7 7 7 f f 7 7 f 7 7 f f f f f 7 f f 
+            7 f 7 7 7 7 7 7 7 f f f f 7 7 7 f 7 f f 
+            7 f f f f f f 7 7 f f f f f f f f 7 7 f 
+            7 7 7 7 7 7 f f 7 f f 7 7 7 7 7 7 7 7 f 
+            7 7 7 7 7 7 7 f 7 f f 7 7 f f f 7 7 f f 
+            7 7 7 7 7 7 f f 7 f f f 7 7 f f f f f 7 
+            7 7 7 7 7 7 f 7 7 7 f f 7 7 f 7 7 7 7 7 
+            7 7 7 7 7 7 f 7 7 7 7 7 7 7 f 7 7 7 7 7 
+            7 7 7 7 7 7 f f f f f 7 7 7 f 7 7 7 7 7 
+            7 7 7 7 7 7 7 7 7 7 f f f f f 7 7 7 7 7 
+            `, TileScale.Eight)
+        AddTilesAndSprites()
     }
 }
 controller.up.onEvent(ControllerButtonEvent.Pressed, function () {
