@@ -197,24 +197,22 @@ function Levels () {
         game.splash("Press enter to restart the level at any time.")
         scene.setTileMap(img`
             7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
-            7 f f f f f f f f f f f f f f f f f f 7 
-            7 f c f 7 7 f 7 7 f 7 7 7 7 7 f 7 7 f 7 
-            7 f 7 f 7 7 7 7 7 f 7 7 f 7 7 f 7 f f 7 
-            7 f 7 f 7 7 f 7 7 f 7 7 f 7 7 f 7 f f 7 
-            7 f 7 f 7 7 f 7 7 f 7 7 f 7 7 f 7 7 f 7 
-            7 f 7 f 7 7 f 7 7 f 7 7 f 7 7 7 7 7 f 7 
-            7 f 7 f 7 7 f 7 7 f 7 7 f 7 7 f 7 7 f 7 
-            7 f 7 f 7 7 f 7 7 f 7 7 7 7 7 f 7 7 f 7 
-            7 f 7 f 7 7 f 7 7 f 7 7 f 7 7 f 7 7 f 7 
-            7 f 7 4 7 7 f 7 7 f 7 7 f 7 7 f 7 7 f 7 
-            7 f 7 f 7 7 f 7 7 7 7 7 f 7 7 f 7 7 f 7 
-            7 f 7 f 7 7 f 7 7 f 7 7 f 7 7 f 7 3 f 7 
-            7 f f f f f f f f f f f f f f f f f f 7 
+            7 7 f f f 7 7 7 7 7 7 7 7 7 f f f f 7 7 
+            7 7 f c f f f f 7 f f f f f f 7 7 f 7 7 
+            7 7 f 7 f f 7 f 7 f 7 7 7 7 7 7 7 f 7 7 
+            7 7 f 7 f f 7 f f f 7 7 f f f f 7 f f 7 
+            7 7 f 7 f 7 7 7 7 7 7 7 f 7 7 f 7 7 f 7 
+            7 7 f 7 f 7 7 7 7 7 7 7 f 7 7 f 7 7 f 7 
+            7 7 f 7 4 7 7 f f f f f f 7 7 f 7 7 f 7 
+            7 7 f 7 7 7 7 f 7 7 7 7 7 7 7 f 7 7 f 7 
+            7 7 f 7 f f 7 f 7 f f f f 7 f f 7 7 f 7 
+            7 7 f f f f 7 f 7 f 7 7 f f f 7 7 7 f 7 
+            7 f f f f f f f f f 7 7 7 7 7 7 7 7 f 7 
+            7 f 3 7 7 7 7 7 7 7 7 7 f f f f 7 7 f 7 
+            7 f f f f f f f f f f f f 7 7 f f f f 7 
             7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
             `, TileScale.Eight)
         AddTilesAndSprites()
-    } else if (Level == 11) {
-        game.splash("Tenth firewall removed.")
     }
 }
 controller.up.onEvent(ControllerButtonEvent.Pressed, function () {
@@ -536,7 +534,7 @@ blockMenu.onMenuOptionSelected(function (option, index) {
             color.setColor(7, color.rgb(130, 172, 149), 750)
             timer.after(755, function () {
                 Levels()
-                info.startCountup(true)
+                info.startCountup()
             })
         })
     }
