@@ -72,27 +72,6 @@ function Levels () {
         scene.setTileMap(img`
             7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
             7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
-            7 7 f f f f f f f f 7 7 7 7 7 7 7 7 7 7 
-            7 7 f 7 7 7 7 7 7 f f f f f f f f 7 7 7 
-            7 7 f c 7 7 7 7 7 f f 7 7 7 7 7 f 7 7 7 
-            7 7 f 7 7 7 7 f 7 f 7 7 7 7 7 7 f 7 7 7 
-            7 7 f f f f f f 7 7 7 7 7 f 7 7 f 7 7 7 
-            7 7 7 7 7 7 7 f 7 4 7 f 7 7 7 7 f 7 7 7 
-            7 7 7 7 7 7 7 f 7 7 7 7 7 7 7 7 f 7 7 7 
-            7 7 7 7 7 7 7 f f f f f f f f 7 f 7 7 7 
-            7 7 7 7 7 7 7 7 7 7 7 7 7 7 f 7 f 7 7 7 
-            7 7 7 7 7 7 7 7 7 7 7 7 7 7 f 3 f 7 7 7 
-            7 7 7 7 7 7 7 7 7 7 7 7 7 7 f 7 f 7 7 7 
-            7 7 7 7 7 7 7 7 7 7 7 7 7 7 f f f 7 7 7 
-            7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
-            `, TileScale.Eight)
-        AddTilesAndSprites()
-    } else if (Level == 5) {
-        game.splash("Fourth firewall removed.")
-        game.splash("Press enter to restart the level at any time.")
-        scene.setTileMap(img`
-            7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
-            7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
             7 7 7 7 7 7 7 7 7 7 7 7 f f f f 7 7 7 7 
             7 7 7 7 f f f f f f f f f 7 7 f f 7 7 7 
             7 7 7 7 f 7 f 7 7 f 7 7 7 7 7 f f 7 7 7 
@@ -108,8 +87,50 @@ function Levels () {
             7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
             `, TileScale.Eight)
         AddTilesAndSprites()
+    } else if (Level == 5) {
+        game.splash("Fourth firewall removed.")
+        game.splash("Press enter to restart the level at any time.")
+        scene.setTileMap(img`
+            f f f f f f f f f f f f f f f f f f f f 
+            f c 7 f 7 7 f 7 7 f 7 7 f 7 7 f 7 7 f 7 
+            f 7 7 f 7 7 f 7 7 f 7 7 7 7 7 f 7 7 f 7 
+            f 7 7 7 7 7 f 7 7 f 7 7 f 7 7 f 7 7 f 7 
+            f 7 7 f 7 7 f 7 7 f 7 7 f 7 7 f 7 7 f 7 
+            f 7 7 f 7 7 7 7 7 f 7 7 f 7 7 f 7 7 f 7 
+            f 7 7 f 7 7 f 7 7 f 7 7 f 7 7 7 7 7 f 7 
+            f 7 7 f 7 7 f 7 7 f 7 7 f 7 7 7 7 7 f 7 
+            f 7 7 f 7 7 f 7 7 f 7 7 f 7 7 f 7 7 f 7 
+            f 7 7 f 7 7 f 7 7 f 7 7 f 7 7 f 7 7 f 7 
+            f 7 4 f 7 7 f 7 7 f 7 7 f 7 7 f 7 7 f 7 
+            f 7 7 f 7 7 f 7 7 7 7 7 f 7 7 f 7 7 f 7 
+            f 7 7 f 7 7 f 7 7 7 7 7 f 7 7 f 7 7 7 3 
+            f 7 7 f 7 7 f 7 7 f 7 7 f 7 7 f 7 7 f 7 
+            f f f f f f f f f f f f f f f f f f f f 
+            `, TileScale.Eight)
+        AddTilesAndSprites()
     } else if (Level == 6) {
         game.splash("Fifth firewall removed.")
+        game.splash("Press enter to restart the level at any time.")
+        scene.setTileMap(img`
+            7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
+            7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
+            7 7 f f f f f f f f 7 7 7 7 7 7 7 7 7 7 
+            7 7 f 7 7 7 7 7 7 f f f f f f f f 7 7 7 
+            7 7 f c 7 7 7 7 7 f f 7 7 7 7 7 f 7 7 7 
+            7 7 f 7 7 7 7 f 7 f 7 7 7 7 7 7 f 7 7 7 
+            7 7 f f f f f f 7 7 7 7 7 f 7 7 f 7 7 7 
+            7 7 7 7 7 7 7 f 7 4 7 f 7 7 7 7 f 7 7 7 
+            7 7 7 7 7 7 7 f 7 7 7 7 7 7 7 7 f 7 7 7 
+            7 7 7 7 7 7 7 f f f f f f f f 7 f 7 7 7 
+            7 7 7 7 7 7 7 7 7 7 7 7 7 7 f 7 f 7 7 7 
+            7 7 7 7 7 7 7 7 7 7 7 7 7 7 f 3 f 7 7 7 
+            7 7 7 7 7 7 7 7 7 7 7 7 7 7 f 7 f 7 7 7 
+            7 7 7 7 7 7 7 7 7 7 7 7 7 7 f f f 7 7 7 
+            7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
+            `, TileScale.Eight)
+        AddTilesAndSprites()
+    } else if (Level == 7) {
+        game.splash("Sixth firewall removed.")
         game.splash("Press enter to restart the level at any time.")
         scene.setTileMap(img`
             7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
@@ -129,8 +150,8 @@ function Levels () {
             7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 f f f f f 
             `, TileScale.Eight)
         AddTilesAndSprites()
-    } else if (Level == 7) {
-        game.splash("Sixth firewall removed.")
+    } else if (Level == 8) {
+        game.splash("Seventh firewall removed.")
         game.splash("Press enter to restart the level at any time.")
         scene.setTileMap(img`
             7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
@@ -150,8 +171,8 @@ function Levels () {
             7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
             `, TileScale.Eight)
         AddTilesAndSprites()
-    } else if (Level == 8) {
-        game.splash("Seventh firewall removed.")
+    } else if (Level == 9) {
+        game.splash("Eighth firewall removed.")
         game.splash("Press enter to restart the level at any time.")
         scene.setTileMap(img`
             7 f f f f 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
@@ -171,8 +192,8 @@ function Levels () {
             7 7 7 7 7 7 7 7 7 7 f f f f f 7 7 7 7 7 
             `, TileScale.Eight)
         AddTilesAndSprites()
-    } else if (Level == 9) {
-        game.splash("Eighth firewall removed.")
+    } else if (Level == 10) {
+        game.splash("Ninth firewall removed.")
         game.splash("Press enter to restart the level at any time.")
         scene.setTileMap(img`
             f f f f f f f f f f f f 7 7 7 7 7 7 7 7 
@@ -192,8 +213,8 @@ function Levels () {
             7 7 7 7 7 7 7 7 7 7 f f f f f 7 7 7 7 7 
             `, TileScale.Eight)
         AddTilesAndSprites()
-    } else if (Level == 10) {
-        game.splash("Ninth firewall removed.")
+    } else if (Level == 11) {
+        game.splash("Tenth firewall removed.")
         game.splash("Press enter to restart the level at any time.")
         scene.setTileMap(img`
             7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
@@ -213,8 +234,8 @@ function Levels () {
             7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
             `, TileScale.Eight)
         AddTilesAndSprites()
-    } else if (Level == 11) {
-        game.splash("Tenth firewall removed.")
+    } else if (Level == 12) {
+        game.splash("Eleventh firewall removed.")
         game.splash("Press enter to restart the level at any time.")
         scene.setTileMap(img`
             7 f f f f f 7 f f f 7 7 7 7 7 7 7 7 7 7 
@@ -234,8 +255,92 @@ function Levels () {
             7 7 7 7 f f f f 7 7 f f f 7 7 f f f 7 7 
             `, TileScale.Eight)
         AddTilesAndSprites()
-    } else if (Level == 12) {
-        game.splash("Tenth firewall removed.")
+    } else if (Level == 13) {
+        game.splash("Twelfth firewall removed.")
+        game.splash("Press enter to restart the level at any time.")
+        scene.setTileMap(img`
+            7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
+            7 f f f f 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
+            7 f c 7 f f f f f f f f f f f f f f f 7 
+            7 f 7 7 7 7 7 7 7 7 f f 3 7 7 7 7 7 f 7 
+            7 f 7 4 f f f 7 7 f f f f f f f 7 7 f 7 
+            7 f 7 7 f 7 f 7 7 f 7 7 7 7 7 f 7 7 f 7 
+            7 f 7 7 f f f 7 7 f f f f 7 7 f 7 7 f 7 
+            7 f 7 7 7 7 7 7 7 7 7 7 f f f f 7 7 f 7 
+            7 f f f f f 7 7 7 7 7 7 7 7 7 f 7 f f 7 
+            7 7 7 7 7 f f f f 7 7 f f f f f 7 7 f 7 
+            7 7 7 7 7 7 7 7 f 7 7 f f 7 7 f 7 7 f 7 
+            7 7 7 7 7 7 7 7 f f 7 7 f 7 f f 7 7 f 7 
+            7 7 7 7 7 7 7 7 f 7 7 7 7 7 7 7 7 7 f 7 
+            7 7 7 7 7 7 7 7 f 7 7 7 7 7 7 7 7 7 f 7 
+            7 7 7 7 7 7 7 7 f f f f f f f f f f f 7 
+            `, TileScale.Eight)
+        AddTilesAndSprites()
+    } else if (Level == 14) {
+        game.splash("Thirteenth firewall removed.")
+        game.splash("Press enter to restart the level at any time.")
+        scene.setTileMap(img`
+            f f f f 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
+            f 7 7 f f f f f f 7 7 7 7 7 7 7 7 7 7 7 
+            f 7 7 7 7 7 7 7 f 7 7 f f f f f f f f f 
+            f f f f f 7 7 7 f 7 7 f 7 7 7 7 7 7 7 f 
+            7 7 7 7 f 7 7 7 f 7 7 f 7 7 7 7 7 7 7 f 
+            7 7 7 7 f 7 7 7 f 7 7 f 7 7 f f f 7 7 f 
+            7 7 7 7 f f 7 7 f 7 7 f 7 7 f 7 f 7 7 f 
+            7 7 7 7 7 f 7 7 f 7 7 f 7 7 f 7 f 7 7 f 
+            7 7 7 7 7 f 7 7 f f f f 7 7 f f f 7 7 f 
+            7 7 7 7 7 f 7 7 7 7 7 7 7 7 7 f f 7 7 f 
+            7 7 7 7 7 f 7 7 7 7 7 7 7 7 7 f f 7 7 f 
+            7 7 7 7 7 f f f f f f f f f f f f 7 7 f 
+            7 f f f f f f f f f f f f f f f f 7 7 f 
+            7 f 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 f 
+            7 f f f f f f f f f f f f f f f f f f f 
+            `, TileScale.Eight)
+        AddTilesAndSprites()
+    } else if (Level == 15) {
+        game.splash("Fourteenth firewall removed.")
+        game.splash("Press enter to restart the level at any time.")
+        scene.setTileMap(img`
+            7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
+            7 f f f f f f f f f f f f f f f f f f 7 
+            7 f 7 7 7 7 7 7 f 3 7 7 7 7 7 7 7 7 f 7 
+            7 f c 7 4 7 7 7 f 7 7 f f f f f f f f 7 
+            7 f f f f f 7 7 f 7 7 7 7 7 7 7 7 7 f 7 
+            7 f 7 7 7 7 7 7 f 7 7 7 7 7 7 7 7 7 f 7 
+            7 f 7 7 f f f f f f f f f f f f 7 7 f 7 
+            7 f 7 7 7 7 7 7 f 7 7 7 7 7 7 7 7 7 f 7 
+            7 f 7 7 7 7 7 7 f 7 7 7 7 7 7 7 7 7 f 7 
+            7 f f f f f 7 7 f 7 7 f f f f f f f f 7 
+            7 f 7 7 7 7 7 7 f 7 7 7 7 7 7 7 7 7 f 7 
+            7 f 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 f 7 
+            7 f 7 7 f f f f f f f f f f f f f 7 f 7 
+            7 f f f f f f f f f f f f f f f f f f 7 
+            7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
+            `, TileScale.Eight)
+        AddTilesAndSprites()
+    } else if (Level == 16) {
+        info.pauseCountup()
+        Sokobox2.destroy()
+        Target2.destroy()
+        game.splash("Mission Complete. Game over.")
+        game.splash("Finished in " + convertToText(info.getTimeElapsed() / 60) + " minutes")
+        scene.setTileMap(img`
+            7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
+            7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
+            7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
+            7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
+            7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
+            7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
+            7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
+            7 7 7 7 7 7 7 7 7 c 7 7 7 7 7 7 7 7 7 7 
+            7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
+            7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
+            7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
+            7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
+            7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
+            7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
+            7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
+            `, TileScale.Eight)
     }
 }
 controller.up.onEvent(ControllerButtonEvent.Pressed, function () {
@@ -292,6 +397,14 @@ sprites.onOverlap(SpriteKind.Sokobox, SpriteKind.Target, function (sprite, other
 })
 controller.left.onEvent(ControllerButtonEvent.Pressed, function () {
     moveLeft()
+})
+info.onCountdownEnd(function () {
+    music.setVolume(0)
+    mySprite.destroy()
+    Sokobox2.destroy()
+    Target2.destroy()
+    game.splash("You hear a thudding noise of footsteps, alerting your that you have run out of time. Though your mission ins't over, you have to flee.")
+    game.over(false, effects.dissolve)
 })
 function moveDown () {
     if (!(blockMenu.isMenuOpen())) {
@@ -557,15 +670,16 @@ blockMenu.onMenuOptionSelected(function (option, index) {
             color.setColor(7, color.rgb(130, 172, 149), 750)
             timer.after(755, function () {
                 Levels()
-                info.startCountup()
+                info.startCountup(false)
+                info.startCountdown(210)
             })
         })
     }
 })
-let Target2: Sprite = null
 let Bricks: Image[] = []
-let Sokobox2: Sprite = null
 let mySprite: Sprite = null
+let Target2: Sprite = null
+let Sokobox2: Sprite = null
 let Level = 0
 let glitchesExe: Sprite = null
 console.log("x")
