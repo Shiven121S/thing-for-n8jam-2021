@@ -213,6 +213,29 @@ function Levels () {
             7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
             `, TileScale.Eight)
         AddTilesAndSprites()
+    } else if (Level == 11) {
+        game.splash("Tenth firewall removed.")
+        game.splash("Press enter to restart the level at any time.")
+        scene.setTileMap(img`
+            7 f f f f f 7 f f f 7 7 7 7 7 7 7 7 7 7 
+            7 f c 7 7 f 7 f 7 f 7 7 7 7 f f f f f f 
+            7 f 7 7 7 f 7 f 7 f f f f 7 f 7 7 7 7 f 
+            7 f 7 7 7 f f f 7 f 7 7 f f f 7 7 7 7 f 
+            7 f 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 f f 
+            7 f 7 4 7 f f f f f 7 7 f f 7 7 7 7 f 7 
+            7 f 7 7 7 f 7 7 7 f 7 7 f f 7 7 f f f f 
+            f f f f f f f 7 7 f f 7 f f f 7 7 7 7 f 
+            f 7 7 f f 7 f f 7 f f f f f f 7 f f f f 
+            f 7 7 7 7 7 7 f 7 f 7 7 7 7 7 7 7 7 7 f 
+            f 7 f f f 7 7 f f f 7 7 7 7 7 7 7 7 f f 
+            f 7 f 7 f 7 7 7 f f f f f f f f 7 7 f 7 
+            f 3 f 7 f 7 7 7 7 7 7 7 7 7 7 7 7 7 f 7 
+            f f f 7 f 7 7 f f f f 7 f f f f 7 f f 7 
+            7 7 7 7 f f f f 7 7 f f f 7 7 f f f 7 7 
+            `, TileScale.Eight)
+        AddTilesAndSprites()
+    } else if (Level == 12) {
+        game.splash("Tenth firewall removed.")
     }
 }
 controller.up.onEvent(ControllerButtonEvent.Pressed, function () {
@@ -252,7 +275,7 @@ function moveUp () {
     }
 }
 controller.anyButton.onEvent(ControllerButtonEvent.Pressed, function () {
-    music.footstep.play()
+    music.thump.play()
 })
 function SetColors () {
     color.setColor(15, color.rgb(38, 36, 51))
